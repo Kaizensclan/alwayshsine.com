@@ -1,0 +1,105 @@
+.blog-details-section img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+  /* backend content css */
+  .cs-author h1 {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 40px;
+    margin-top: 50px; */
+
+}
+
+.icon-para{
+    width: 80% !important;
+}
+.cs-post-title span, #alsolike span {
+    color: #737070;
+    font-size: 13px;
+}
+.cs-blog-detail .text-block {
+    width: 100%;
+    text-align: justify;
+    color: black;
+    margin: 30px 0px;
+    padding: 0px 10px;
+}
+.pagetopimg img{
+    width: 80%;
+    border: 10px solid #222;
+    border-radius: 20px;
+}
+/* img{
+    margin: 15px 0px;
+} */
+ h2{
+    color: #000000;
+}
+ h3{
+    color: #000000;
+}
+
+ li::marker {
+    color: #000 !important;
+}
+.cs-blog-detail li{
+    list-style: disc !important;
+    margin: 8px 0px;
+}
+ p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width:500px){
+    .pagetopimg img {
+        width: 100%;
+        border: 5px solid #222;
+    }
+    .cs-author h1 {
+        font-size: 25px;
+    }
+    .icon-para{
+        width: 100% !important;
+    }
+}
+
+
+/* kunal sir social media incon */
+.kunal-sir{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+    .kunal-sir li{
+    margin: 0px 20px;
+    list-style: none !important;
+    }
+    .kunal-sir li a{
+    font-size: 30px;
+    transition: 0.4s;
+    }
+    .kunal-sir li a i{
+    background: #222;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 100%;
+    transition: 0.4s;
+    }
+    .kunal-sir li a i:hover{
+    background: #000000;
+    }
+    @media(max-width:768px){
+    .kunal-sir li a i {
+    padding: 10px;
+    }
+    .kunal-sir li {
+    margin: 0px 15px;
+    list-style: none !important;
+    }
+    .kunal-sir{
+    padding-left: 0rem;
+    }
+    }

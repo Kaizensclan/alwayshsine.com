@@ -1,0 +1,274 @@
+ .section-banner-franchise {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+        .faq-background-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            backdrop-filter: blur(5px);
+      padding-bottom: 3rem;
+    
+        }
+
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h1{
+        color: white;
+        padding: 150px 0px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+        margin: 0px;
+font-style: italic;
+    }
+    .become-installer-heading h1 span{
+        color: #222;
+    }
+
+    @media (max-width:1200px){
+        .become-installer-img img{
+            margin-top: 5rem;
+        }
+    }
+
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 40px;
+            }
+    }
+
+    @media (max-width:768px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 120px 10px;
+            }
+    }
+    
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 100px 10px;
+            }
+            .form-box form {
+                padding: 0px 10px;
+            }
+    }
+    @media (max-width:400px){
+        .become-installer-heading h1{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+        
+    }
+
+
+
+    /* heading */
+    .fine-an-installer-section{
+        padding: 50px 10px;
+    }
+    .fine-an-installer-heading{
+        text-align: center;
+    }
+    .fine-an-installer-heading h2{
+        font-size: 50px;
+        font-style: italic;
+        text-transform: capitalize;
+        color: #ffffff;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+
+    @media (max-width:997px){
+        .fine-an-installer-heading h2{
+            font-size: 40px;
+        }
+    }
+
+
+    @media (max-width:768px){
+        .fine-an-installer-heading h2{
+            font-size: 30px;
+        }
+    }
+    @media (max-width:500px){
+        .fine-an-installer-heading h2{
+            font-size: 25px;
+        }
+    }
+
+
+
+
+    /* faq start */
+
+
+    #faqcontainer {
+      max-width: 70%;
+      padding-bottom: 4rem;
+      backdrop-filter: blur(5px);
+      padding: 50px 70px;
+      background: #ffffff40;
+      border-radius: 11px;
+      /* margin-bottom: 3rem; */
+      height: 700px;
+      overflow-y: scroll;
+  }
+  /* Ripples circle */
+  
+  .ripplesCircle {
+	position: absolute;
+  
+	top: 50%;
+  
+	left: 50%;
+  
+	transform: translate(-50%, -50%);
+  
+	opacity: 0;
+  
+	width: 0;
+  
+	height: 0;
+  
+	border-radius: 50%;
+  
+	background: rgba(255, 255, 255, 0.25);
+  }
+  
+  .ripples.is-active .ripplesCircle {
+	animation: ripples 0.4s ease-in;
+  }
+  
+  #faqcontainer .panel-title > a:before {
+	float: right !important;
+  
+	font-family: FontAwesome;
+  
+	content: "\f068";
+  
+	padding-right: 5px;
+  }
+  
+  #faqcontainer .panel-title > a.collapsed:before {
+	float: right !important;
+  
+	content: "\f067";
+  }
+
+  
+  #faqcontainer .panel-title > a:hover,
+  #faqcontainer .panel-title > a:active,
+  #faqcontainer .panel-title > a:focus {
+	text-decoration: none;
+  
+	color: #fff;
+  }
+  
+  #faqcontainer .panel {
+    /* margin-bottom: 20px !important; */
+    background-color: #222;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    /* box-shadow: 15px 16px 13px 8px rgb(4 4 4 / 5%); */
+    margin: 6px 0px;
+} 
+
+#faqcontainer .panel .panel-heading{
+    padding: 11px 20px 5px 20px;
+}
+  
+  #faqcontainer .panel-body {
+	background-color: #fff;
+  
+	color: #000;
+  
+	padding: 20px;
+  }
+  
+  #faqcontainer .panel-body ul {
+	padding-left: 20px;
+  }
+  
+  .panel-default .panel-heading .panel-title {
+    font-size: 18px;
+  }
+ .panel-default .panel-heading .panel-title a{
+    color: white;
+    text-decoration: none;
+  }
+  #faqcontainer .panel .panel-body h6 a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #faqcontainer .panel .panel-body h6 {
+    color: #454545;
+  }
+
+
+  @media (max-width:997px){
+    #faqcontainer {
+        max-width: 95%;
+        padding-bottom: 4rem;
+    }
+    #faqcontainer {
+      padding: 50px 50px;
+    }
+  }
+  @media (max-width:600px){
+    #faqcontainer {
+        max-width: 95%;
+        padding-bottom: 4rem;
+    }
+    .panel-default .panel-heading .panel-title {
+        font-size: 15px;
+    }
+    #faqcontainer {
+      padding: 30px 20px;
+    }
+  }
+
+  .panel-body ul li a{
+    color: #222;
+    text-decoration: none;
+  }
+
+
+
+  /* bootstrap 5 code */
+  .accordion-item {
+    margin-top: 10px;
+  }
+  .accordion-item button{
+    background: #222 !important;
+    color: white !important;
+  }
+  .accordion-body h6 {
+    line-height: 24px;
+  }
+  .accordion-body h6 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  .accordion-body ul li{
+    list-style: none;
+  }
+  .accordion-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }

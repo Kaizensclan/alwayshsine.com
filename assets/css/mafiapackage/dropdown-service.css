@@ -1,0 +1,150 @@
+main {
+    margin: 20px 0px;
+  }
+
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+  }
+  .the-viper-mafia ul li::marker {
+    color: #222 !important;
+    font-size: 17px;
+}
+
+  .accordion .accordion-item {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+
+  .accordion .accordion-item .accordion-item-description-wrapper hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    visibility: visible;
+  }
+
+  .accordion .accordion-item.open .accordion-item-description-wrapper hr {
+    visibility: visible;
+  }
+
+  .accordion .accordion-item .accordion-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+    font-weight: 600;
+  }
+
+  .accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+    transition: var(--transition);
+  }
+
+  .accordion .accordion-item.open .accordion-item-header .accordion-item-header-icon {
+    transform: rotate(-180deg);
+  }
+
+  .accordion .accordion-item .accordion-item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+
+  .accordion .accordion-item.open .accordion-item-description-wrapper {
+    grid-template-rows: 1fr;
+  }
+
+  .accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description {
+    min-height: 0;
+  }
+
+  .accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+    padding: 10px;
+    line-height: 1.5;
+  }
+
+  .viper-bull {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .viper-bull h2 {
+    color: black;
+    font-family: "Montserrat", Sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 29px;
+    margin-left: 17px;
+  }
+  .viper-bull h2 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .viper-bull h2 span {
+    color:  #222;
+  }
+
+  .the-viper-mafia {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .the-viper-mafia ul li {
+    color: black;
+  }
+  .the-viper-mafia ul {
+    padding: 0px 20px 0px 40px;
+  }
+
+
+  @media(max-width:600px){
+    .the-viper-mafia ul {
+      padding: 0px 20px 0px 40px !important;
+  }
+  }
+
+  @media(max-width:500px) {
+    .viper-bull h2 {
+      margin-left: 10px;
+      font-size: 21px;
+    }
+
+    .foam-wash {
+      padding: 0px 20px;
+    }
+
+    .bull-img {
+      text-align: center;
+    }
+
+    .accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+      font-size: 12px;
+    }
+    .aboutsection {
+        padding-top: 5rem;
+        }
+
+  }
+
+
+
+  .forward-icon {
+    width: 35%;
+  }
+
+  .foam-wash .bull-img img {
+    margin-top: 0rem;
+  }
+  .span-dark{
+    color:  #222;
+      font-weight: 800;
+      font-family: "Montserrat", Sans-serif;
+      font-style: italic;
+  }

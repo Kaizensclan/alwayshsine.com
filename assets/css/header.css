@@ -1,0 +1,572 @@
+/* sandeep css header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top Header Start */
+
+.topBar {
+    background: #222;
+    padding: 10px 0px 10px 0px;
+    height: 48px;
+}
+.btn-danger {
+    background: #222!important;
+}
+
+.social-talk {
+    display: flex;
+    justify-content: end;
+    padding-top: 3px;
+}
+
+.header-part {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header-bottom {
+    margin-top: 40px;
+}
+
+
+.talk {
+    border-right: 1px solid #e7e6e6ad;
+    padding-right: 10px;
+}
+
+.talk a {
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social-media-top {
+    margin-left: 6px;
+}
+
+.social-media-top a {
+    /* background: #fff; */
+    height: 22px;
+    width: 22px;
+    line-height: 23px;
+    text-align: center;
+    display: inline-block;
+    color: #fff6f6;
+    transition: 0.2s;
+    font-size: 18px;
+    border-radius: 100px;
+    margin: 0 2px;
+}
+
+.head-franchise {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -4px;
+}
+
+.head-btn {
+    color: #fff !important;
+    background: black !important;
+    transform: skewX(25deg);
+    border: 0;
+    margin-left: 15px;
+    border-radius: 0px !important;
+    transition: 400ms;
+}
+
+.head-btn:hover {
+    background-color: white !important;
+    transition: 0.4s;
+}
+
+.head-btn:hover span {
+    color: white !important;
+}
+
+.head-btn span {
+    transform: skewX(157deg);
+    display: block;
+    font-weight: 600;
+}
+
+
+/* Top Header close */
+
+/* Header Menu Start  */
+.navbar {
+    background-color: #dadada;
+    padding: 0px 10px !important;
+    margin-bottom: 0px;
+}
+
+.logo {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.logo:before {
+    left: -60px;
+    width: 370px;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    transform: skew(30deg);
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 145%;
+    z-index: 0;
+}
+
+.logo img {
+    position: relative;
+    width: 117%;
+    top: -15px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 18px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 8px 11px !important;
+    transform: skewX(25deg);
+    background: #222;
+}
+
+.navbar-nav .nav-item .nav-link span {
+    transform: skewX(-25deg);
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .dropdown-toggle::after {
+    transform: skewX(-25deg);
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #2f2f2fe6;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li a:hover {
+    background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li a:hover {
+    color: #222
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li a {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li ul li {
+    list-style: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li ul li a i {
+    padding: 0px 10px;
+    color: #222
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li ul li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width:1300px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 10px;
+    }
+
+    .logo:before {
+        width: 280px;
+    }
+
+    .logo a img {
+        width: 80%;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .head-btn span {
+        font-size: 12px;
+    }
+
+    .topBar {
+        height: 43px;
+    }
+
+    .talk a {
+        font-size: 13px;
+    }
+
+    .social-media-top a span {
+        font-size: 13px;
+    }
+
+    .social-talk {
+        padding-top: 0px;
+    }
+
+
+}
+
+@media (max-width:997px) {
+    .head-franchise {
+        display: block;
+    }
+
+    .book-mafia {
+        margin: 5px 0px;
+    }
+
+    .topBar {
+        height: auto;
+    }
+
+    .head-btn {
+        width: 100%;
+    }
+
+    .talk a {
+        font-size: 15px;
+    }
+
+    .social-media-top a span {
+        font-size: 15px;
+    }
+
+    .topBar {
+        background: #222;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .head-btn {
+        margin-left: 0px;
+    }
+
+    .navbar-toggler {
+        background: white !important;
+    }
+
+    .logo:before {
+        background-color: transparent !important;
+    }
+
+    .logo img {
+        top: 0px;
+    }
+
+    .navbar {
+        background-color: #000000;
+        padding: 10px !important;
+        margin-bottom: -1px;
+    }
+
+    .fullscreen-bg {
+        top: 0px !important;
+    }
+
+    .navbar-nav {
+        margin-top: 21px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        width: 234px;
+    }
+
+    .logo:before {
+        width: auto;
+    }
+
+    .header-bottom {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:766px) {
+    .head-franchise {
+        display: block;
+        padding: 5px 25px;
+    }
+
+    .social-talk {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .logo img {
+        top: 0px;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 15px;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        height: 210px;
+        overflow-y: scroll;
+    }
+
+    .header-bottom {
+        margin-top: 200px;
+    }
+
+    .header-part {
+        border: 1px solid black;
+    }
+
+
+    }
+
+
+    @media (max-width:500px) {
+        .talk a {
+            font-size: 14px;
+        }
+
+        .social-media-top a span {
+            font-size: 14px;
+        }
+
+        .header-bottom {
+            margin-top: 194px;
+        }
+    }
+
+    @media (max-width:400px) {
+        .logo a img {
+            width: 70%;
+        }
+    }
+
+    @media (max-width:375px) {
+        .talk a {
+            font-size: 12px;
+        }
+
+        .social-media-top a span {
+            font-size: 12px;
+        }
+    }
+
+
+
+
+
+ 
+
+
+    	 /* Book for mafia services */
+	.modal-backdrop {
+        position: relative;
+        }
+        
+           .mafia-service-form {
+            padding-bottom: 0px;
+            border-radius: 17px;
+        }
+        .mafia-service-form .modal-header {
+            background-color: #222;
+            padding: 17px 20px !important;
+            display: flex;
+            align-items: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .modal-dialog {
+            max-width: 700px;
+        }
+       .modal-header .close{
+            text-align: end;
+            width: 60%;
+        }
+    
+       .modal-header .close span{
+            font-size:25px;
+            color: white;
+        }
+        .modal-title{
+            font-weight: 700;
+            color: white;
+        }
+        
+        .form-control{
+            box-shadow: 0 1px 1px 1px rgb(80 80 80 / 42%);
+                height: 45px;
+                margin: 5px 0px;
+                box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px 0px, rgb(27 31 35 / 4%) 0px 0px 0px 1px;
+        }
+         .iti--allow-dropdown{
+            width: 100% !important;
+            margin: 5px 0px;
+            box-shadow: rgb(0 0 0 / 0%) 0px 1px 3px 0px, rgb(27 31 35 / 4%) 0px 0px 0px 1px;
+        }
+        .modal-body {
+            padding: 19px 30px 0px 30px;
+        }
+        .modal-backdrop {
+            
+            display: none;
+            width: 100%;
+        }
+        .modal-dialog {
+            margin-top: 0px;
+        }
+        
+
+        .iti__country-name, .iti__flag-box {
+            color: black;
+        }
+        .modal-body .validation-error label{
+            color: #222!important;
+            font-size: 13px;
+            margin: 0px 0px 13px 0px;
+        }
+        .modal-body .validation-error input{
+            margin: 4px 0;
+        }
+
+     
+        @media (max-width:1600px){
+           .modal-header .close{
+            width: 60%;
+        }
+        }
+      
+        
+        @media (max-width:1300px){
+           .modal-header .close{
+            width: 63%;
+        }
+        }
+        @media (max-width:1200px){
+            .modal-header .close{
+             width: 60%;
+         }
+         }
+    
+        @media (max-width:1100px){
+           .modal-header .close{
+            width: 65%;
+        }
+        }
+        @media (max-width:950px){
+           .modal-header .close{
+            width: 60%;
+        }
+        }
+        @media (max-width:850px){
+           .modal-header .close{
+            width: 55%;
+        }
+        .modal-dialog {
+        max-width: 70%;
+    }
+        }
+        @media (max-width:768px){
+           .modal-header .close{
+            width: 45%;
+        }
+        }
+        @media (max-width:650px){
+            .modal-header .close{
+            width: 58%;
+        }
+        .modal-dialog {
+            max-width: 92%;
+            margin: auto;
+        }
+       .modal-header .close span {
+        font-size: 30px;
+    }
+        }
+        @media (max-width:600px){
+           .modal-header .close{
+            width: 48%;
+        }
+        }
+    
+        @media (max-width:500px){
+        	.modal-header .close{
+            width: 42%;
+        }
+    }
+        @media (max-width:450px){
+        	.modal-header .close{
+            width: 35%;
+            }
+        }
+        @media (max-width:400px){
+        .modal-header .close{
+            width: 30%;
+        }
+    }
+
+    @media (max-width:380px){
+        .modal-header .close{
+            width: 25%;
+        }
+    }
+    
+    @media (max-width:350px){
+        .modal-header .close{
+            width: auto;
+        }
+    }
+    
+ /* 20-06-2024-gopal developer  */
+   
+    .modal-header .close{
+	background: transparent;
+    border: none;
+}

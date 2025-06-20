@@ -1,0 +1,186 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");*/
+* {
+  box-sizing: border-box;
+}
+.fifteensection .text-block4 a{
+     line-height: 30px;
+    color: #000;
+    width: 80%;
+    /* height: 37px; */
+    background-color: #fff;
+    font-weight: bold;
+    height: 45px;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.fifteensection  {
+  background: #000;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  min-height: auto;
+  margin: 0;
+  font-size: 14px;width: 100%;
+}
+
+.fifteensection .box-caption h3 {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.fifteensection .box-caption h3:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -0.5rem;
+  width: 0;
+  height: 2px;
+  background: #e95d1f;
+  transition: width 0.1s 0.8s;
+}
+ .fifteensection  #portfolio {
+  display: flex;
+  width: 100%;
+  height: 100%;
+ /* align-items: center;
+  justify-content: center;
+  overflow: hidden; */
+}
+
+ .fifteensection  .link {
+  border-bottom: 1px solid transparent;
+  color: #06C0A8;
+  text-decoration: none;
+  transition: ease-in 0.13s;
+}
+ .fifteensection  .link:hover {
+  background-color: #06C0A8;
+  color: #ffffff;
+}
+
+.fifteensection #portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vmin;
+  overflow: hidden;
+  transform: skew(5deg);
+}
+.fifteensection #portfolio .card {
+  flex: 1;
+  transition: all 1s ease-in-out;
+  height: 350px;
+  position: relative;
+}
+.fifteensection #portfolio .card .card__head {
+    color: #fff;
+    background: #FF0000;
+    padding: 3px;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.5s ease-in-out;
+    width: 310px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.fifteensection #portfolio .card:hover {
+  flex-grow: 10;
+}
+.fifteensection #portfolio .card:hover img {
+  filter: grayscale(0);
+}
+.fifteensection #portfolio .card:hover .card__head {
+  text-align: center;
+  top: calc(100% - 2em);
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  transform: rotate(0deg) skew(-5deg);
+}
+.fifteensection #portfolio .card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  filter: grayscale(100%);
+}
+.fifteensection #portfolio .card:not(:nth-child(5)) {
+  margin-right: 2px;
+}
+
+.carousel-inner {
+    right: 25px;
+}
+#demo3prev{
+   font-size: 30px; width:0%;
+}
+#demo3next{
+  font-size: 30px; width:0%;
+}
+
+@media (min-width: 1281px) and (max-width: 2560px) { 
+  .fifteensection #portfolio {
+    margin: 40px 10px 40px 120px;
+  }
+  /*.fifteensection {*/
+  /*   min-height: 50vh;*/
+  /*}*/
+}
+@media (min-width: 1025px) and (max-width: 1280px) { 
+  .fifteensection #portfolio {
+    margin: 40px 10px 40px 40px;
+  }
+  /*.fifteensection {*/
+  /*   min-height: 50vh;*/
+  /*}*/
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+  .fifteensection #portfolio {
+    margin:40px 10px 40px 40px;
+  }
+  /*.fifteensection {*/
+  /*  min-height: 50vh;*/
+  /*}*/
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+
+  .fifteensection #portfolio {
+    margin:0px;
+  }  
+  .fifteensection #portfolio {
+      transform: none;
+  }
+ /*.fifteensection{*/
+ /*   min-height:55vh;*/
+ /* }*/
+  .carousel-inner {
+        right: 5px;
+    }
+    .fifteensection .text-block4 a {
+      line-height: 40px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) { 
+
+  .fifteensection #portfolio {
+    margin:0px;
+  }
+  .fifteensection #portfolio {
+      transform: none;
+  }
+  .carousel-inner {
+      right: 10px;
+  }
+  .fifteensection #portfolio .card .card__head {
+    padding:0px;
+  }
+  .fifteensection .text-block4 a {
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,666 @@
+.section-about {
+        background-image: url(../images/about/IMG-20250529-WA0014.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 500px){
+    .section-about {
+        background-color: black;
+        background-image: none;
+    }
+    .about-us h1 {
+        text-align: center;
+    }
+}
+.ppf-sec {
+
+    background: url(../images/IMG-20250529-WA0016.jpg), #000000bf;
+    /* width: 104%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+
+}
+
+.about-us h1 {
+    color: white;
+    padding: 150px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Montserrat", Sans-serif;
+    font-style: italic;
+}
+.about-us h1 span{
+    color: #222;
+}
+
+.section {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+@media (max-width:768px){
+    .about-us h1 {
+        font-size: 30px;
+    }    
+}
+
+.live-dream-heading h2 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.live-dream-heading h2 span {
+    color: #222;
+}
+
+.row-live-dream {
+    margin-top: 2rem !important;
+}
+
+.row-live-dream .live1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.row-live-dream .live2 p {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.Obsessed {
+    background: #000000c2;
+    position: relative;
+    background-image: url(../images/about/Hyderabad.webp);
+    z-index: 0;
+    background-position: bottom;
+    padding: 70px 0px;
+}
+
+.Obsessed:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(174deg, black #222);
+}
+
+.obsessed-heading {
+    text-align: center;
+}
+
+.obsessed-heading h2 {
+    font-size: 45px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+}
+
+.obsessed-heading h2 span {
+    border-top: 9px solid #222;
+    padding-top: 6px;
+    display: inline-block;
+}
+
+.obsessed-heading p {
+    color: white !important;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.obsessed-heading img {
+    width: 100%;
+}
+
+.out-brands-top {
+    margin: 30px 0px;
+}
+
+.out-brands {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.out-brands h2 {
+    font-size: 45px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.out-brands h2 span {
+    border-top: 9px solid #222;
+    padding-top: 6px;
+    display: inline-block;
+}
+
+.fifteensection {
+    padding: 50px 0px !important;
+}
+
+.our-presence a {
+    background-color: rgb(57, 57, 57) !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.our-presence a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.true-luxry {
+    border: 3px solid #222;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 35px;
+}
+
+true-luxry .true-luxry h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.row-true-luxry {
+    margin: auto;
+}
+
+.scrollbar {
+    height: 300px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 429px;
+    padding-right: 38px;
+}
+
+.why-detailing-mafia {
+    /* background-color: black; */
+    padding: 50px 0px;
+}
+
+.detailing-mafia-colum {
+    padding-top: 6px;
+    margin-top: 34px;
+    transition: 400ms ease-in-out;
+    padding: 15px;
+}
+
+.detailing-mafia-colum:hover h3 {
+    border-top: 2px solid #222;
+}
+
+.detailing-mafia-colum h3 {
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+    border-top: 2px solid #959393;
+    padding-top: 15px;
+    transition: 0.4s;
+}
+
+.detailing-mafia-colum h3 span img {
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.detailing-mafia-colum p {
+    color: white !important;
+    text-align: justify;
+}
+
+.key-benefits img {
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.key-benefits-colum {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 38px 25px 25px 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: rgb(17 12 46 / 50%) 0px 3px 7px 0px;
+    border-bottom: 6px solid #222;
+    transition: 400ms ease-in-out;
+    position: relative;
+    height: 350px;
+}
+
+.key-benefits-colum:hover {
+    transition: 400ms ease-in-out;
+    transform: translatey(-19px);
+}
+
+.key-benefits-colum .cap-img {
+    background: #e0d9d9;
+    text-align: center;
+    border-radius: 100%;
+    width: 85px;
+    height: 81px;
+    display: flex;
+    margin: auto;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 0px 3px #222;
+    margin-bottom: 25px;
+}
+
+.key-benefits-colum h3 {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.key-benefits-colum p {
+    text-align: justify;
+}
+
+.key-benefits-colum p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.section-benefits {
+    padding: 50px 0px;
+}
+
+.section-career {
+    background-color: #efefef;
+    padding: 50px 0px;
+}
+
+.row-career {
+    margin-top: 2rem !important;
+}
+
+.row-career .career-colum1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.row-career .career-colum2 h3 {
+    color: black;
+    font-size: 30px;
+    font-style: inherit;
+    text-align: initial;
+    margin-bottom: 21px;
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+
+
+
+
+
+@media (max-width:1400px) {
+    .key-benefits-colum {
+        height: 381px;
+    }
+}
+
+@media (max-width:1200px) {
+    .key-benefits-colum {
+        height: 400px;
+    }
+}
+
+@media (max-width:997px) {
+    .section-containerr h1 {
+        padding: 90px 0px;
+    }
+
+    .live-dream-heading h2 {
+        font-size: 50px;
+    }
+
+    .fifteensection {
+        padding: 50px 0px 0px 0px !important;
+    }
+
+    .true-luxry .out-brands h2 {
+        font-size: 35px !important;
+    }
+
+    .detailing-mafia-colum h3 span img {
+        width: 15% !important;
+        height: auto;
+    }
+
+    .detailing-mafia-colum h3 {
+        font-size: 14px;
+    }
+
+    .key-benefits-colum {
+        height: auto;
+    }
+}
+
+@media(max-width:800px) {
+    .out-brands h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    .section-containerr {
+        padding: 0px 15px;
+    }
+
+    .live-dream-heading h2 {
+        font-size: 40px;
+    }
+
+    .live1 img {
+        margin-bottom: 34px;
+    }
+
+    .obsessed-heading h2 {
+        font-size: 40px;
+    }
+
+    .obsessed-heading p {
+        text-align: justify;
+    }
+
+    .true-luxry {
+        margin: 30px 0px;
+    }
+
+    .force-overflow {
+        padding-right: 5px;
+    }
+
+    .scrollbar .force-overflow p {
+        text-align: justify;
+    }
+
+    .detailing-mafia-colum h3 {
+        font-size: 20px;
+    }
+
+    .out-brands h2 span {
+        padding-top: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .about-us h1 {
+        padding: 58px 0px;
+        font-size: 25px;
+    }
+
+    .section-containerr {
+        padding: 0px 10px;
+    }
+
+    .live-dream-heading h2 {
+        font-size: 35px;
+    }
+
+    .obsessed-heading h2 {
+        font-size: 30px;
+    }
+
+    .Obsessed {
+        padding: 50px 0px;
+    }
+
+    .true-luxry .out-brands h2 {
+        font-size: 28px !important;
+    }
+
+    .true-luxry {
+        padding: 25px;
+    }
+
+    .out-brands h2 {
+        font-size: 28px;
+    }
+
+    .detailing-mafia-colum {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-box input,
+.form-box select {
+    height: 47px;
+    font-family: 'Montserrat';
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
+.get-touch-sec img {
+    border-radius: 15px;
+}
+
+.comments {
+    text-align: left;
+    color: #000;
+}
+
+/* button.button.buttonBlue {
+    background: #222;
+    color: #fff;
+    padding: 15px 43px;
+    border-radius: 4px;
+    display: block;
+    margin-top: 16px;
+    transition: 400ms;
+} */
+
+button.button.buttonBlue {
+    background: #222;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 14px;
+    display: block;
+    margin-top: 16px;
+    transition: 400ms;
+}
+
+
+
+button.button.buttonBlue:hover {
+    background: #000;
+    transition: 400ms;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+    border: 1px solid #222;
+    box-shadow: none !important;
+}
+
+.form-box label {
+    color: #222;
+}
+
+.our-present h2 {
+    font-size: 45px;
+    padding: 0;
+    font-weight: 700;
+    margin-top: 38px;
+}
+
+.our-present h2 span {
+    border-top: 9px solid #222;
+}
+
+/*29-01-24*/
+.key-benefits-box p a {
+    font-weight: 700;
+}
+
+.key-benefits-sec-box .row .col-lg-4 {
+    display: flex;
+}
+
+.key-benefits-box p a:hover {
+    color: #222;
+}
+
+.about-firstcontent h2 {
+    text-align: center;
+}
+
+.about-firstcontent h2 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.about-firstcontent h2 span {
+    color: #222;
+}
+
+.banner-content h1 {
+    font-size: 51px;
+    font-weight: 700;
+}
+
+.true-luxry P {
+    text-align: justify;
+}
+
+.project-slider .owl-dots {
+    justify-content: center;
+    display: flex;
+}
+
+.project-slider .owl-dots button span {
+    background-color: #222;
+    width: 10px !important;
+    height: 10px !important;
+    /* position: absolute; */
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+.project-slider .owl-dots button.owl-dot.active span {
+    background: #222;
+}
+
+.form-box h2 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.form-group {
+    margin: 5px 0px;
+}
+
+.career-img img {
+    width: 100%;
+}
+
+
+
+@media (max-width: 997px) {
+    .form-box {
+        margin-top: 2rem !important;
+    }
+}
+
+
+/* tab view */
+
+@media (max-width:997px){
+    .row-live-dream .col-md-6{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+.key-row .col-md-4{
+    width: 33.33%;
+}
+@media (max-width:997px){
+    .key-row .col-md-4{
+    width: 50%;
+}
+}
+@media (max-width:768px){
+    .key-row .col-md-4{
+    width: 100%;
+}
+}

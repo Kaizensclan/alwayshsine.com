@@ -1,0 +1,239 @@
+
+.section-banner-franchise {
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h2{
+        color: white;
+        padding: 150px 0px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;  
+        font-style: italic;
+    }
+    .become-installer-heading h2 span{
+        color:  #222;
+    }
+
+
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h2{
+                font-size: 35px;
+            }
+    }
+
+    @media (max-width:768px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h2{
+                font-size: 25px;
+                padding: 120px 10px;
+            }
+    }
+    
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h2{
+                font-size: 30px;
+                padding: 100px 10px;
+            }
+    }
+    @media (max-width:400px){
+        .become-installer-heading h2{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+        
+    }
+
+
+    .coating-heading-bold{
+text-align: center;
+padding: 40px 10px;
+    }
+
+    .coating-heading-bold h1{
+        font-size: 70px;
+        font-style: italic;
+        text-transform: capitalize;
+        color:  #222;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .coating-heading-bold h1 span{
+        color: #000000;
+    }
+    .coating-heading-bold p{
+        font-size: 15px;
+    }
+    @media (max-width:997px){
+        .coating-heading-bold h1{
+            font-size: 50px;
+        }
+    }
+
+
+    @media (max-width:600px){
+        .coating-heading-bold h1{
+            font-size: 40px;
+        }
+        .coating-heading-bold p{
+            font-size: 15px;
+        }
+        .become-installer-heading{
+            width: 100%;
+            }
+    }
+
+
+
+    .steam-section-img img{
+        width: 100%;
+    }
+    .steam-backgrounf-color-section{
+        background-color: rgb(227, 227, 227);
+        padding: 40px 10px;
+    }
+
+    .steam-section-para-heading{
+        margin-top: 2rem;
+    }
+
+    .steam-section-para-heading h2{
+        font-size: 25px;
+        font-style: italic;
+        text-transform: capitalize;
+        color:  #222;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .steam-section-para-heading ul li{
+        color: black !important;
+    }
+    .steam-section-para-heading ul li::marker {
+        color:  #222 !important;
+    }
+
+    .steam-para{
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .steam-row-section{
+        padding: 40px 0px;
+    }
+    .steam-row-section .col-md-3{
+        margin: 30px 0px;
+    }
+    .steam-row-section .col-md-3 img{
+        width: 100%;
+        transition: 0.4s;
+    }
+    /* .steam-row-section .col-md-3 img:hover{
+        transform: rotateY(180deg);
+        transition: .4s ease-in-out;
+    } */
+
+
+
+    /* 31-05-24 */
+    .background-steam-bottom img{
+        width: 100%;
+    }
+
+    .steam-row-section .col-md-3 .steam-content h4{
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+            }
+            .steam-row-section .col-md-3 .steam-content h4 span{
+                color:  #222;
+            }
+            .steam-row-section .col-md-3 .steam-content {
+            text-align: center;
+            padding: 135px 10px;
+        }
+        .steam-row-section .col-md-3{
+            background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+        }
+        .steam-row-section .col-md-3 .steam-content h4 {
+            font-size: 15px;
+            color: rgb(0 0 0 / 0%);
+        }
+        .steam-row-section .col-md-3 .steam-content h4 span {
+            color:  #222;
+        }
+        .steam-row-section .col-md-3{
+            width: 25%;
+        }
+        .steam-row-section .col-md-3:hover .steam-content h4 {
+            font-size: 18px;
+            color:white;
+        }
+        .steam-row-section .col-md-3:hover .steam-content h4 span {
+            font-size: 18px;
+            color: #222;
+        }
+
+        @media (max-width:1400px){
+            .steam-row-section .col-md-3 .steam-content {
+                padding: 115px 10px;
+            }
+        }
+        @media (max-width:1200px){
+            .steam-row-section .col-md-3 .steam-content {
+                padding: 95px 10px;
+            }
+        }
+
+
+        @media (max-width:997px){
+            .even-7-row .col-md-6{
+                width: 100%;
+            }
+            .steam-row-section .col-md-3{
+                width: 50%;
+            }
+            .steam-row-section .col-md-3 .steam-content {
+                padding: 150px 10px;
+            }
+        }
+        @media (max-width:768px){
+            .steam-row-section .col-md-3 .steam-content {
+                padding: 110px 10px;
+            }
+        }
+
+        @media (max-width:600px){
+            .steam-row-section .col-md-3{
+                width: 100%;
+            }
+            .steam-row-section .col-md-3 .steam-content {
+                padding: 171px 10px;
+            }
+            .steam-row-section .col-md-3:hover .steam-content h4 {
+                font-size: 30px;
+            }
+            .steam-row-section .col-md-3 .steam-content h4 span {
+                font-size: 30px !important;
+            }
+        }
+
+
+    /* tab view */
+
+    .steam-section-para-heading p{
+        text-align: justify;
+    }
+
+            

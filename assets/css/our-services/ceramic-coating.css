@@ -1,0 +1,712 @@
+
+.section-banner-franchise {
+    /* background-image: url(ceramic-coating/ceramic-coating.jpg); */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+.coating-precision {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.shine-before-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0px;
+}
+
+
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h2{
+        color: white;
+        padding: 150px 0px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+        margin: 0px;
+        font-style: italic;
+    }
+    .become-installer-heading h2 span{
+        color:  #222;
+    }
+
+    @media (max-width:1200px){
+        .become-installer-img img{
+            margin-top: 5rem;
+        }
+    }
+
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h2{
+                font-size: 35px;
+            }
+    }
+
+    @media (max-width:768px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h2{
+                font-size: 25px;
+                padding: 120px 10px;
+            }
+    }
+    
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h2{
+                font-size: 25px;
+                padding: 100px 10px;
+                text-align: center;
+            }
+    }
+    @media (max-width:400px){
+        .become-installer-heading h2{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+        
+    }
+
+
+.section-coating{
+    padding: 30px 10px;
+}
+
+.coating-heading-bold{
+text-align: center;
+margin-bottom: 30px;
+}
+.coating-heading-bold h1{
+    font-size:50px;
+    font-style: italic;
+    text-transform: capitalize;
+    color:  #222;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 800;
+}
+.coating-heading-bold h1 span{
+    color: #000000;
+}
+.coating-heading-bold h1 p{
+    color: black !important;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+}
+.ceramic-coating-protection h3{
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.ceramic-coating-protection h3 span{
+    color:  #222;
+}
+.ceramic-coating-protection p{
+    color: black;
+    font-size: 15px;
+}
+
+@media (max-width:997px){
+    .coating-heading-bold h1 {
+        font-size: 40px;
+    }    
+}
+@media (max-width:768px){
+    .coating-heading-bold h1 {
+        font-size: 30px;
+    }  
+    .coating-heading-bold h1 p{
+        font-size: 17px;
+    }  
+}
+@media (max-width:500px){
+    .coating-heading-bold h1 {
+        font-size: 27px;
+    }  
+    .coating-heading-bold h1 p{
+        font-size: 15px;
+    }  
+}
+
+/* section 2 */
+
+
+.coating-two-part {
+text-align: center;
+}
+
+.coating-two-part h2 {
+    font-size: 35px;
+    color:  #222;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    font-style: italic;
+}
+.coating-two-part h3{
+    font-size: 27px;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.coating-precision{
+    padding: 50px 10px;
+}
+
+
+/* section-three */
+.precision-logo {
+    text-align: center;
+    padding: 0px 30px;
+}
+.precision-logo img {
+    width: 55%;
+}
+.precision-logo h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color:  #222;
+}
+
+.precision-logo p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.precision-logo .precision-a {
+    background:  #222;
+    color: white;
+}
+
+/* section fourth */
+
+.benefit-coating{
+    padding: 50px 10px;
+}
+.benefit-coating-heading{
+    text-align: center;
+}
+.benefit-coating-heading h2{
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 800;
+    background-color: transparent;
+}
+.benefit-coating-heading h2 span{
+    color:  #222;
+}
+.benefit-coating-heading h3 span{
+    color:  #222;
+}
+.benefit-coating-heading h3{
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    text-align: start;
+}
+.benefit-coating-heading p{
+    font-size: 15px;
+    text-align: justify;
+}
+.benefit-coating-row{
+margin: 20px 0px;
+text-align: center;
+padding: 0px 10px;
+}
+.benefit-coating-row img{
+    width: 23%;
+    box-shadow: 0 0 0 12px #d9010108;
+    border-radius: 100%;
+    margin: 20px 0px 30px 0px;
+    transition: .4s ease-in-out;
+}
+.benefit-coating-row img:hover{
+    transition: .4s ease-in-out;
+    transform: rotateY(180deg);
+    box-shadow: 0 0 0 12px black;
+}
+
+.benefit-coating-row h3{
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.benefit-coating-row p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.shine-before-section h2{
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 800;
+    font-size: 59px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+
+
+@media (max-width: 997px) {
+    .coating-heading-bold h2 {
+        font-size: 50px;
+    }
+    .precision-logo {
+        padding: 0px 10px;
+    }
+    .precision-logo h3 {
+        font-size: 18px;
+    }
+    .benefit-coating-row {
+        padding: 0px 10px;
+    }
+    .shine-before-section h2 {
+        font-size: 40px;
+        background-color: transparent;
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .coating-heading-bold h2 {
+        font-size: 40px;
+        background-color: transparent;
+    }
+    .precision-logo {
+        margin-top: 2rem;
+    }
+    .precision-logo img {
+        width: 70%;
+    }
+    .precision-logo h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .benefit-coating-heading h2 {
+        font-size: 26px;
+    }
+    .benefit-coating-heading h2 span{
+        font-size: 26px;
+        display: contents;
+    }
+    .shine-before-section {
+        padding: 100px 10px !important;
+    }
+  
+}
+@media (max-width: 600px) {
+    .coating-heading-bold h5 {
+        font-size: 17px;
+    }
+    .section-coating{
+        padding: 30px 10px;
+    }
+    .benefit-coating-row {
+        padding: 0px 0px;
+    }
+}
+
+
+@media (max-width:500px){
+    .coating-heading-bold h2 {
+        font-size: 30px;
+    }
+    .ceramic-coating-protection h3 {
+        font-size: 25px;
+    }
+    .coating-heading-bold h5 {
+        font-size: 15px;
+    }
+    .coating-two-part h2 {
+        font-size: 30px;
+    }
+    .coating-two-part h3{
+        font-size: 25px;
+    }
+    .precision-logo img {
+        width: 90%;
+    }
+    .benefit-coating-heading h2 {
+        font-size: 22px;
+    }
+    .benefit-coating-heading h2 span{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:400px){
+    .coating-heading-bold h2 {
+        font-size: 27px;
+    }
+    .ceramic-coating-protection h3 {
+        font-size: 22px;
+    }
+    .coating-two-part h2 {
+        font-size: 25px;
+    }
+    .coating-two-part h3{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* table */
+.ceramic-coating-dark-table{
+    padding:50px 10px;
+    background: #dcdcdcb5;
+}
+.table-heading-new h2{
+    font-size: 30px;
+}
+@media (max-width:768px){
+    .table-heading-new h2 {
+        font-size: 26px;
+    }
+}
+@media (max-width:500px){
+    .table-heading-new h2 {
+        font-size: 24px;
+    }
+}
+/* table */
+
+
+table {
+margin: auto;
+border-collapse: collapse;
+overflow-x: auto;
+display: block;
+width: fit-content;
+max-width: 100%;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+margin-top: 2rem;
+}
+.table-2 table thead tr th {
+padding: 10px;
+font-size: 13px;
+background-color:  #222;
+color: white;
+border: 1px solid #000;
+}
+.table-2 table tbody tr td {
+border: 1px solid #000;
+padding: 10px 88px;
+font-size: 14px;
+}
+
+@media (max-width:768px){
+.table-2 table thead tr th {
+padding: 10px;
+font-size: 13px;
+}
+.table-2 table tbody tr td {
+padding: 10px;
+font-size: 14px;
+}
+}
+
+@media (max-width:500px){
+.table-2 table thead tr th {
+padding: 8px;
+font-size: 12px;
+}
+.table-2 table tbody tr td {
+padding: 8px;
+font-size: 13px;
+}
+}
+
+.ceramic-coating-new{
+    margin: auto;
+    width: 46%;
+    background:  #222;
+    margin-bottom: -32px !important;
+    padding: 7px;
+    text-align: center;
+    }
+    .ceramic-coating-new span{
+        font-weight: 700;
+    }
+    .ceramic-coating-new-1{
+        margin: auto;
+        width: 46%;
+        background:  #222;
+        margin-bottom: -32px !important;
+        padding: 7px;
+        text-align: center;
+        }
+        .ceramic-coating-new-1 span{
+            font-weight: 700;
+        }
+        .table-3 table tbody tr td {
+            padding: 10px 111px;
+        }
+    @media (max-width:1400px){
+    .ceramic-coating-new{
+    width: 51%;
+    }
+    .ceramic-coating-new-1{
+        width: 51%;
+        }
+        .table-2 table tbody tr td {
+            padding: 10px 81px;
+        }
+        .table-3 table tbody tr td {
+            padding: 10px 103px;
+        }
+    }
+    @media (max-width:1200px){
+    .ceramic-coating-new{
+    width: 41%;
+    }
+    .ceramic-coating-new-1{
+        width: 41%;
+        }
+    .table-2 table tbody tr td {
+    padding: 10px 35px;
+    }
+    .table-3 table tbody tr td {
+        padding: 10px 57px;
+    }
+}
+  
+    @media (max-width:997px){
+    .ceramic-coating-new{
+    width: 55%;
+    }
+    .ceramic-coating-new-1{
+        width: 55%;
+        }
+        .table-2 table tbody tr td {
+            padding: 10px 34px;
+        }
+        .table-3 table tbody tr td {
+            padding: 10px 56px;
+        }
+    }
+    @media (max-width:768px){
+    .ceramic-coating-new{
+    width: 74%;
+    }
+    .ceramic-coating-new-1{
+        width: 74%;
+        }
+    }
+    @media (max-width:600px){
+    .ceramic-coating-new{
+    width: 100%;
+    }
+    .ceramic-coating-new-1{
+        width: 100%;
+        }
+    .table-2 table tbody tr td {
+    padding: 10px 25px;
+    width: 25%;
+    }
+    .table-3 table tbody tr td {
+        width: 21%;
+        }
+        .benefit-coating-heading p{
+            text-align: justify;
+        }
+    }
+
+    .ceramic-coating-new-1 span{
+        color: white;
+    }
+    .ceramic-coating-new{
+        color: white;
+    }
+/* table-close */
+
+
+
+
+       
+  
+/* faq section */
+/* Default styling */
+/* Detail styling */
+.details {
+    --padding: 10px;
+    border: 1px solid #ffffff3b;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 8px 0px;
+  }
+  
+  .details+.details {
+    margin-top: 15px;
+  }
+  
+  .details__title {
+    --width: 15px;
+    --height: 2px;
+    --radius: 1px;
+    --color: currentColor;
+    margin: 0;
+    padding: var(--padding) calc(var(--width) * 2) var(--padding) var(--padding);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    position: relative;
+    color: white;
+  }
+  
+  .details__title:before,
+  .details__title:after {
+    content: '';
+    display: block;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--color);
+    position: absolute;
+    border-radius: var(--radius);
+    top: calc(50% - (var(--height) / 2));
+    right: calc(var(--width) / 2);
+    transition: all .2s ease-in-out;
+  }
+  
+  .details__title:after {
+    rotate: 90deg;
+  }
+  
+  .details__container[open] .details__title:before {
+    rotate: 45deg;
+    /* rotate: 135deg; */
+  }
+  
+  .details__container[open] .details__title:after {
+    rotate: 135deg;
+    /* rotate: 225deg; */
+  }
+  
+  .details__container[open] .details__title {
+    background-color: #f3f3f3;
+  }
+  
+  .details__summary::marker {
+    content: '';
+  }
+  
+  .details__desc {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    padding-inline: var(--padding);
+    pointer-events: none;
+  }
+  
+  .details__container[open]+.details__desc {
+    grid-template-rows: 1fr;
+    padding-block: var(--padding);
+  }
+  
+  .details__desc-inner {
+    min-height: 0;
+  }
+  
+  .section-faq {
+    /* padding: 70px 0px 70px 0px; */
+    background: url(../../images/our-services/paint-protection/Inside-lower-image.jpg) , rgba(0, 0, 0, 0);
+    /* padding: 70px !important; */
+    border-radius: 10px;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .details__title {
+    font-size: 18px;
+    padding: 20px 15px;
+  }
+  
+  .heading-faq h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .heading-faq h3 span {
+    color:  #222;
+  }
+  
+  .heading-faq {
+    margin-bottom: 1rem;
+  }
+  
+  .container-faq {
+    background: url(../../images/our-services/paint-protection/Inside-lower-image.jpg) , rgba(0, 0, 0, 0);
+    padding: 70px !important;
+    border-radius: 10px;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .details__desc-inner {
+    color: #d3d3d3;
+  }
+  
+  .details__container[open] .details__title {
+    background-color: #f3f3f300;
+  }
+  
+  @media(max-width:997px) {
+    .heading-faq h2 {
+      font-size: 29px;
+    }
+  
+    .details__title {
+      font-size: 15px;
+      padding: 20px 15px;
+    }
+  }
+  
+  @media(max-width:500px) {
+    .heading-faq h2 {
+      font-size: 24px;
+    }
+  
+    .container-faq {
+      padding: 60px 20px !important;
+    }
+  
+    .details__title {
+      font-size: 16px;
+    }
+    .heading-faq h3 {
+      font-size: 25px;
+  }
+  }
+  
+  /* faq section CLOSE */

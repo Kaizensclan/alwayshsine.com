@@ -1,0 +1,152 @@
+    .section-banner-franchise {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      }
+
+.become-installer-heading {
+    width: 60%;
+}
+
+.become-installer-heading h2 {
+    color: white;
+    padding: 150px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Montserrat", Sans-serif;
+    margin: 0px;
+ font-style: italic;
+}
+
+
+.become-installer-heading h2 span {
+    color:  #222;
+}
+
+@media (max-width:1200px) {
+    .become-installer-img img {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width:997px) {
+    .become-installer-heading {
+        width: 70%;
+    }
+
+    .become-installer-heading h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .become-installer-heading {
+        width: 70%;
+    }
+
+    .become-installer-heading h2 {
+        font-size: 30px;
+        padding: 120px 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .become-installer-heading {
+        width: 100%;
+    }
+
+    .become-installer-heading h2 {
+        font-size: 30px;
+        padding: 100px 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .become-installer-heading h2 {
+        font-size: 25px;
+        padding: 100px 10px;
+    }
+
+}
+/* close */
+/* heading */
+.bike-detailing-heading{
+    text-align: center;
+}
+.section-bike-detailing {
+    padding: 40px 10px 0px 10px;
+}
+.bike-detailing-heading h1 {
+    font-size: 60px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 800;
+}
+.bike-detailing-heading h1 span{
+    color:  #222;
+}
+
+@media (max-width:997px){
+    .bike-detailing-heading h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:768px){
+    .bike-detailing-heading h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px){
+    .bike-detailing-heading h1 {
+        font-size: 37px;
+    }
+}
+
+/* close */
+
+/* 
+banner */
+
+.section-terms-condition{
+    padding: 40px 10px 60px 10px;
+}
+
+.privacy-policy-contant h2{
+    color:  #222;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.privacy-policy-contant .by-visiting{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.privacy-policy-contant .by-visiting strong , .privacy-policy-contant .by-visiting strong a {
+    color:  #222;
+    text-decoration: none;
+}
+
+.by-visiting strong a{
+    color:  #222;
+    text-decoration: none;
+}
+
+.privacy-policy-contant h2 {
+    color: #000000 !important;
+    font-weight: 800;
+    margin-top: 15px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+}
+
+/* banner */
+@media (max-width:768px){
+    .section-banner-franchise{
+        background-position-x: -619px;
+    }
+}

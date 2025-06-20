@@ -1,0 +1,345 @@
+
+    .section-banner-franchise{
+padding: 100px 10px 50px 10px;
+    }
+    .become-installer-heading h2{
+        color: white;
+        padding: 100px 0px 30px 0px;
+        font-size: 35px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+        margin: 0px;
+    }
+    .become-installer-heading h2 span{
+        color:  #222;
+    }
+    .banner-outlets{
+        text-align: center;
+        border-radius: 20px;
+    }
+    .banner-outlets img{
+        width: 80%;
+        border: 5px solid #222;
+        border-radius: 10px;
+    }
+    .outlets-icon ul{
+        display: flex !important;
+        padding-left: 0rem;
+    
+    }
+    .outlets-icon ul li {
+        list-style: none;
+        margin: 0px 20px;
+    
+    }
+    .outlets-icon ul li .whatapp {
+        color: #03d34f;
+
+    }
+    .outlets-icon ul li .instragram {
+color: #f24d77;
+    }
+    .outlets-icon ul li .facebook {
+color: #1877f2;
+    }
+    .outlets-icon ul li a{
+        text-decoration: none;
+    }
+    .outlets-icon ul li a i{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .outlets-icon .phone{
+display: none !important;
+    }
+
+    @media (max-width:1200px){
+        .become-installer-img img{
+            margin-top: 5rem;
+        }
+    }
+
+    @media (max-width:997px){
+        .become-installer-heading h2 {
+            padding: 0px 0px 30px 0px;
+        }
+        .section-banner-franchise{
+            padding: 50px 10px 50px 10px;
+                }
+                .become-installer-heading h2{
+                    font-size: 25px;
+                }
+    }
+
+    @media (max-width:768px){
+        .become-installer-heading h2 {
+            padding: 20px 0px 40px 0px;
+            font-size: 35px;
+            text-align: center;
+        }
+        .outlets-icon ul {
+            justify-content: center;
+            margin-bottom: 4rem;
+        }
+        .outlets-icon ul li a i {
+            font-size: 60px;
+        }
+        .outlets-icon ul li {
+            margin: 0px 40px;
+        }
+        .banner-outlets img {
+            width: 100%;
+        }
+         .outlets-icon .phone{
+            display: block !important;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            display: flex !important;
+
+                }
+                .outlets-icon .desktop{
+                    display: none !important;
+                        }
+    }
+    
+
+@media (max-width:500px){
+    .become-installer-heading h2 {
+        font-size: 27px;
+    }
+    .outlets-icon ul li a i {
+        font-size: 50px;
+    }
+    .outlets-icon ul li {
+        margin: 0px 40px;
+    }
+}
+
+
+
+/* section1 */
+.locate-deep-section{
+    padding: 40px 10px;
+}
+.locate-content p{
+color: black;
+text-align: justify;
+}
+
+.section-locate-slider{
+    padding: 0px 10px 40px 10px;
+}
+.swiper {
+    width: 100% !important;
+  }
+
+  .locate-colum-img {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .locate-colum-img img {
+    display: block !important;
+    width: 100% !important;
+  }
+  .locate-state-content h1{
+    text-align: center;
+    font-weight: 700;
+  }
+  .locate-state-content h1 strong span{
+    font-size: 28px;
+  }
+
+
+  /* section3 */
+  .locate-section-backend{
+padding: 50px 10px 40px 10px;
+  }
+  .locate-state-content h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* font-weight: 800; */
+    font-family: "Montserrat", Sans-serif;
+    margin-bottom: 7px;
+  }
+  .locate-state-content h2 span{
+    color: #000000;
+  }
+  .locate-state-content p{
+    margin-bottom: 0rem;
+    text-align: justify;
+  }
+  .locate-state-content ul{
+    padding-left: 1rem;
+  }
+  .locate-state-content ul li {
+    margin: 20px 0px;
+    list-style: auto;
+  }
+  .locate-state-content ul li h5{
+    color:  #222;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+  }
+  .locate-state-content ul li::marker {
+    color:  #222 !important;
+    font-weight: 700;
+}
+
+@media (max-width:997px){
+    .locate-state-content ul li p{
+        text-align: justify;
+    }
+}
+
+@media (max-width:768px){
+    .locate-state-content h2{
+        font-size: 25px;
+    }
+}
+@media (max-width:500px){
+    .locate-state-content h2{
+        font-size: 22px;
+    }
+    .locate-section-backend {
+        padding: 50px 5px 40px 5px;
+    }
+}
+.outletsection .nav-item {
+    color: #000000 !important;
+}
+
+
+/* section4 */
+.locate-section-location{
+    padding: 40px 10px;
+}
+
+.locate-adderess{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.locate-adderess h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Montserrat", Sans-serif;
+    text-align: center;
+}
+.locate-adderess h2 span{
+    color:  #222;
+}
+
+.adderess-row{
+    width: 100%;
+    display: flex;
+    margin: 15px 0px;
+}
+.adderess-row .row-col-md-4{
+    width: 20%;
+    text-align: center;
+    padding-top: 11px;
+    align-content: center;
+}
+.adderess-row .row-col-md-4 span{
+    border: 3px solid #222;
+    background: black;
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+.adderess-row .row-col-md-4 span i{
+    color: rgb(255, 255, 255);
+}
+.adderess-row .row-col-md-8{
+    width: 80%;
+}
+.adderess-row .row-col-md-8 p{
+    margin-bottom: 3px;
+}
+
+@media (max-width:997px){
+    .locate-adderes-row .col-md-4{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .locate-adderes-row .col-md-8{
+        width: 100%;
+    }
+    .locate-section-location {
+        padding: 0px 10px 40px 10px;
+    }
+}
+@media (max-width:400px){
+    .locate-adderess h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* section5 */
+.bottom-outlets img{
+    width: 100%;
+}
+.outlets-bottom-section{
+    padding: 40px 10px;
+}
+
+
+
+
+/* banner icion */
+.outlets-icon{
+    margin-top: 2rem;
+   text-align: center;
+ }
+   .outlets-icon a{
+    font-size: 40px;
+    margin: 0px 50px !important;
+  }
+  .outlets-icon a img{
+    width: 8%;
+  }
+
+  @media (max-width:997px){
+    .outlets-icon a{
+       margin: 0px 30px !important;
+    }
+    .outlets-icon a img{
+    width: 12%;
+  }
+  }
+  @media (max-width:768px){
+    .outlets-icon a{
+       margin: 0px 40px !important;
+    }
+   
+  }
+  @media (max-width:500px){
+    .outlets-icon a{
+       margin: 0px 30px !important;
+    }
+  }
+
+
+
+  /* mail */
+  .adderess-row p a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* google map */
+  .locate-location #map-canvas{
+    border: 1px solid #222;
+    border-radius: 5px;
+  }
+
+
+
+  /* side button & button button */
+.feedback-btn , .paint-protection-line {
+    display: none !important;
+}

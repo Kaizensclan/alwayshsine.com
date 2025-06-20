@@ -1,0 +1,211 @@
+	.section-banner-franchise{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h1{
+        color: white;
+        padding: 150px 0px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+font-style: italic;
+    }
+    .become-installer-heading h1 span{
+        color: #222;
+    }
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 40px;
+            }
+    }
+    
+    @media (max-width:768px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 120px 10px;
+            }
+    }
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 100px 10px;
+            }
+    }
+    @media (max-width:400px){
+        .become-installer-heading h1{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+        
+    }
+
+
+
+    .fine-an-installer-section{
+        padding: 50px 10px ;
+    }
+    .fine-an-installer-heading{
+        text-align: center;
+    }
+    .fine-an-installer-heading h2{
+        font-size: 60px;
+        font-style: italic;
+        text-transform: capitalize;
+        color: #222;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .fine-an-installer-heading h2 span{
+        color: #495057;
+    }
+    .fine-an-installer-heading h5{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: "Montserrat", Sans-serif;
+    }
+
+    .section-find-in{
+        padding: 0px 0px 70px 0px;
+    }
+
+    @media (max-width:997px){
+        .fine-an-installer-section{
+            padding: 50px 10px 0px 10px;
+        }
+    }
+
+
+
+
+
+
+
+    @media (max-width:997px){
+        .fine-an-installer-heading h2{
+            font-size: 50px;
+        }
+        .fine-an-installer-heading h5{
+            font-size: 17px;
+        }
+    }
+
+
+    @media (max-width:768px){
+        .fine-an-installer-heading h2{
+            font-size: 40px;
+        }
+        .fine-an-installer-heading h5{
+            font-size: 15px;
+        }
+    }
+    @media (max-width:500px){
+        .fine-an-installer-heading h2{
+            font-size: 30px;
+        }
+        .fine-an-installer-heading h5{
+            font-size: 15px;
+        }
+    }
+
+
+
+
+
+
+
+
+    .wrapper .filter-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 55px;
+        /* width: 100%; */
+    }
+    .wrapper .filter {
+        margin-top: 10px;
+    }
+    .filter-select .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    .filter-select .wrapper .filter {
+        margin-top: 10px;
+    }
+    .filter-select #outlettype {
+        display: none;
+        overflow: scroll;
+        height: 450px;
+        width: 100%;
+        text-align: left;
+        padding-left: 16px;
+    }
+
+    .filter-select .alert {
+        display: none !important; 
+        color: red;
+        display: none;
+        font-size: 16px;
+        font-weight: bold;
+        top: 2%;
+        height: 200px;
+        width: 40%;
+    }
+
+    .filter-select #resetFilter {
+        width: 30%;
+    }
+    .filter-select .btn-danger {
+        color: #fff;
+        border-color:#dc3545;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+
+    .filter-select .filter .display-data h4{
+        color: #222;
+    }
+    .filter-select .filter .display-data h4 a{
+        text-decoration: none;
+        color: #222;
+    }
+    .filter-select .filter .display-data h4 a strong{
+        color: #222;
+    }
+    .filter-select .filter .display-data .geo-data{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+  
+
+
+
+    @media (max-width:700px){
+        .wrapper .filter-wrapper {
+            padding: 30px 10px 50px 10px;
+        }
+    }

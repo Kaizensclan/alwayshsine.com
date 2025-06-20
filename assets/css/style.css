@@ -1,0 +1,26 @@
+body{
+    overflow: auto !important;
+    padding-right: inherit !important;
+}   
+.section-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0px;
+}
+
+
+ 
+
+
+@media (max-width: 997px) {
+    .section-banner {
+        padding: 90px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-banner {
+        padding: 60px 0px;
+    }
+}

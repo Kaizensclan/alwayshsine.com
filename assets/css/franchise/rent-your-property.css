@@ -1,0 +1,180 @@
+ .section-banner-franchise {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .rent-your-section {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .become-submit-message p{
+            text-align: center;
+            color: #00ff43 !important;
+            font-weight: 700;
+            font-size: 28px;
+            font-family: Montserrat;
+            font-style: italic;
+            text-transform: capitalize;
+        }
+
+
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h1{
+        color: white;
+        padding: 150px 0px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+        margin: 0px;
+font-style: italic;
+    }
+    .become-installer-heading h1 span{
+        color: #222;
+    }
+    
+    .become-installer-form{
+        padding: 60px 20px;
+    }
+    
+    .form-box {
+        background: #ffffff4f;
+        box-shadow: 1px 2px 4px #fff;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: poppins;
+        width: 100%;
+        margin: 50px auto;
+        padding: 30px;
+        backdrop-filter: blur(5px);
+    }
+    .form-box h2 {
+        color: #ffffff;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 40px;
+        font-family: "Montserrat", Sans-serif;
+    }
+    .form-box form{
+        padding: 0px 30px;
+    }
+    .form-box form .form-group select{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border: none;
+        margin: 8px 0px;
+            font-size: 13px;
+            height: 45px;
+    }
+    .form-box select:focus {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    }
+    .form-box form .form-group input{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border: none;
+        margin: 8px 0px;
+            font-size: 13px;
+            height: 45px;
+    
+    }
+    .form-box form .form-group .form-control[type=file]:not(:disabled):not([readonly]) {
+        padding: 12px 0px 0px 20px;
+    }
+    .form-box form .form-submits{
+        text-align: center;
+    }
+    .form-box form .form-submits button{
+        background: #222;
+        color: white;
+        padding: 7px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: none;
+    }
+    
+    .become-installer-img img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .para-rent-property{
+    margin-bottom: 40px;
+    }
+    .para-rent-property p{
+        font-size: 15px;
+        color: white !important;
+    }
+    .para-rent-property p span{
+        color: #222;
+        font-weight: 700;
+    }
+    
+    
+    @media (max-width:1200px){
+        .become-installer-img img{
+            margin-top: 5rem;
+        }
+    }
+    
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 40px;
+            }
+            .become-installer-row .col-md-6{
+                width: 100%;
+            }
+            .become-installer-img img{
+                margin-top: 0rem;
+            }
+    }
+    
+    
+    @media (max-width:768px){
+        .become-installer-heading{
+            width: 70%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 120px 10px;
+            }
+    }
+    
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 100px 10px;
+            }
+            .form-box form {
+                padding: 0px 10px;
+            }
+    }
+    @media (max-width:500px){
+        .form-box form {
+            padding: 0px 10px;
+        }
+            
+    }
+    @media (max-width:400px){
+        .become-installer-heading h1{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+        
+    }
+
+
+    /* banner */
+
+    @media (max-width:768px){
+        .section-banner-franchise{
+            background-position-x: -414px;
+        }
+    }

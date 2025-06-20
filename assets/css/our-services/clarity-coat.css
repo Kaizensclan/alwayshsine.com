@@ -1,0 +1,460 @@
+.become-installer-heading{
+    width: 60%;
+    }
+    .become-installer-heading h1{
+        color: white;
+        padding: 150px 0px;
+        font-size: 35px;
+        font-weight: 800;
+        font-family: "Montserrat", Sans-serif;
+        margin: 0px;
+        font-style: italic;
+
+    }
+    .become-installer-heading h1 span{
+        color:  #222;
+    }
+
+    @media (max-width:1200px){
+        .become-installer-img img{
+            margin-top: 5rem;
+        }
+    }
+
+    @media (max-width:997px){
+        .become-installer-heading{
+            width: 90%;
+            }
+            .become-installer-heading h1{
+                font-size: 40px;
+            }
+    }
+
+    @media (max-width:768px){
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 120px 10px;
+            }
+    }
+    
+    @media (max-width:600px){
+        .become-installer-heading{
+            width: 100%;
+            }
+            .become-installer-heading h1{
+                font-size: 30px;
+                padding: 100px 10px;
+            }
+            .form-box form {
+                padding: 0px 10px;
+            }
+    }
+    @media (max-width:400px){
+        .become-installer-heading h1{
+            font-size: 25px;
+            padding: 100px 10px;
+        }
+
+    }
+
+
+
+    /* section heading */
+    .section-heading{
+        padding: 40px 10px;
+    }
+    .coating-heading-bold{
+        text-align: center;
+    }
+    .coating-heading-bold h2 span{
+        color: black;
+    }
+    .coating-heading-bold h2 {
+        font-size: 50px;
+        font-style: italic;
+        text-transform: capitalize;
+        color:  #222;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .coating-heading-bold p{
+        font-size: 15px;
+    }
+
+
+    @media (max-width:997px){
+        .coating-heading-bold h2 {
+            font-size: 40px;
+        }
+    }
+    @media (max-width:500px){
+        .coating-heading-bold h2 {
+            font-size: 30px;
+        }
+    }
+
+
+    /* section3 */
+
+    .section-3-paragraph{
+        padding: 40px 10px;
+        background-color: #e4e4e4b5;
+    }
+    .paragraph-heading{
+        text-align: center;
+    }
+    .paragraph-heading h2{
+     color:  #222;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "Montserrat", Sans-serif;
+        margin-bottom: 15px;
+    }
+    .paragraph-heading h3{
+        color:  #222;
+           font-size: 25px;
+           font-weight: 700;
+           font-family: "Montserrat", Sans-serif;
+           margin-bottom: 20px;
+       }
+       .paragraph-heading h4{
+        color: #000000;
+           font-size: 18px;
+           font-weight: 700;
+           font-family: "Montserrat", Sans-serif;
+           margin-bottom: 15px;
+       }
+       .bike-detailing-content p{
+        text-align: justify;
+    }
+
+       @media(max-width:997px){
+        .paragraph-heading h2{
+            font-size: 25px;
+        }
+        .paragraph-heading h3{
+            font-size: 20px;
+        }
+       }
+       @media(max-width:768px){
+        .paragraph-heading h2{
+            font-size: 20px;
+        }
+        .paragraph-heading h3{
+            font-size: 20px;
+        }
+       }
+       @media(max-width:500px){
+        .paragraph-heading h2{
+            font-size: 20px;
+        }
+        .paragraph-heading h3{
+            font-size: 17px;
+        }
+        .paragraph-heading h4{
+            font-size: 15px;
+        }
+       }
+
+       
+       /* banner images section */
+       .section-banner-images img{
+        width: 100%;
+       }
+
+
+    /* section4 */
+
+    .bike-detailing-dark {
+        background-color: #eaeaeab5;
+        padding: 40px 10px;
+    }
+    .bike-detailing-video video{
+        width: 100%;
+        border: 10px solid #222;
+    }
+    
+    .bike-detailing-light {
+        background-color: #ffffffb5;
+        padding: 40px 10px;
+    }
+    .bike-detailing-img img {
+        width: 100%;
+    }
+    .bike-detailing-content h3 {
+        text-transform: capitalize;
+        color:  #222;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .bike-detailing-content ul li{
+        color: black !important;
+        list-style: none;
+    }
+    .bike-detailing-content ul li i{
+        font-size: 13px;
+        color:  #222;
+        padding-right: 5px;
+    }
+    .bike-detailing-content ul{
+        padding-left: 0rem;
+    }
+
+    @media (max-width:997px){
+        .row-new .col-md-6{
+            width: 100% !important;
+        }
+        .bike-detailing-content{
+            margin-top: 20px;
+        }
+        .bike-detailing-light .row-new{
+            flex-direction: column-reverse !important;
+        }
+    }
+
+
+    /* section6 */
+    .clarity-section {
+        padding: 40px 10px;
+        background: #f0f0f0;
+    }
+    .clarity-coat-heading {
+        text-align: center;
+    }
+    .clarity-coat-heading h2{
+        font-size: 40px;
+        font-style: italic;
+        text-transform: capitalize;
+        color: #000000;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 800;
+    }
+    .clarity-coat-heading h2 span{
+        color:  #222;
+    }
+    .clarity-row{
+        margin-top: 2rem;
+    }
+    .clarity-colum-img img{
+        width: 100%;
+    }
+    .clarity-colum-img h2{
+        color: #000000;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 19px;
+    }
+    .clarity-colum-img p{
+        text-align: justify;
+        font-size: 13px;
+        margin-top: 1rem;
+    }
+    .main-features-li{
+        padding-left: 1rem !important;
+    }
+    .main-features-li li{
+        list-style: disc !important;
+        margin: 6px 0px;
+    }
+    .main-features-li li::marker {
+        color:  #222 !important;
+    }
+
+    @media (max-width:768px){
+        .clarity-coat-heading h2{
+            font-size: 30px;
+        }
+        .clarity-row .col-md-3{
+            width: 50%;
+        }
+    }
+    @media (max-width:500px){
+        .clarity-coat-heading h2{
+            font-size: 25px;
+        }
+    }
+    @media (max-width:400px){
+        .clarity-coat-heading h2{
+            font-size: 23px;
+        }
+    }
+
+
+   /* section table */
+   .section-table{
+    padding: 40px 10px;
+   }
+ 
+table {
+    margin: auto;
+     border-collapse: collapse;
+     overflow-x: auto;
+     display: block;
+     width: fit-content;
+     max-width: 100%;
+     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+     margin-top: 2rem;
+   }
+   .table{
+    padding: 0px 20px;
+   }
+   
+ td, th {
+    border: 1px solid #353535 !important;
+     padding: 7px 7px 7px 7px;
+     color: white;
+     font-size: 14px;
+     text-align: center;
+   }
+   
+   table thead tr th{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 11px;
+   }
+   
+   th {
+     text-align: left;
+     background-color:  #222;
+     text-transform: uppercase;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     border-bottom: rgb(50, 50, 100) solid 2px;
+     border-top: none;
+   }
+   
+   td {
+     white-space: nowrap;
+     border-bottom: none;
+     color: rgb(20, 20, 20);
+   }
+   
+   td:first-of-type, th:first-of-type {
+     border-left: none;
+   }
+   
+   td:last-of-type, th:last-of-type {
+     border-right: none;
+   }
+   .table .Maintenance{
+    color:  #222;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+   }
+   .table .Conditions{
+    color: #464646;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+   }
+   .clear-protection{
+    padding: 15px !important;
+   }
+   .ultra-crystal {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+   .ultra-crystal ul{
+    display: flex;
+    justify-content: center;
+   }
+   .ultra-crystal ul li:before {
+    content: ".";
+    color: #222;
+    font-size: 50px;
+    margin-right:3px;
+}
+.ultra-crystal ul li {
+    line-height: 0;
+    color: black;
+    font-family: auto;
+    position: relative;
+    font-size: 14px;
+    list-style: none;
+}
+.phone-view{
+    display: none;
+}
+
+.table-2 table thead tr th{
+    padding: 12px 20px !important;
+    font-size: 11px;
+    }
+ 
+
+    @media (max-width:997px){
+        .table {
+            padding: 0px 0px;
+        }
+        .table-2 table thead tr th {
+            padding: 12px 30px 12px 30px !important;
+        }
+    }
+    @media (max-width:600px){
+        .table-2 table thead tr th {
+            padding: 12px 20px 12px 20px !important;
+        }
+        .section-banner-images img {
+            height: 150px;
+        }
+    }
+
+
+
+
+    /* section-bottom */
+    .section-bottom img{
+        width: 100%;
+    }
+
+    /* tab view */
+    @media (max-width:997px){
+        .row-detailing-dark .col-md-6{
+            width: 100%;
+        }
+    }
+
+
+
+    /* 11-07-24 changes images section and images */
+  
+     .clarity-colum-img{
+        padding: 14px;
+        height: 300px;
+        align-content: center;
+     }
+     .clarity-colum-img:hover{
+        transform: scale(1.1);
+     }
+     .clarity-colum-img{
+        transition: 0.4s;
+        border-radius: 10px;
+     } 
+     .clarity-colum-img h2{
+        color: white;
+        transition: transform .2s;
+     }
+     .clarity-colum-img p{
+        color: white !important;
+     }
+
+     @media (max-width:997px){
+        .clarity-row .col-md-3{
+           width: 50%;
+           margin-top: 1rem;
+        }
+     }
+     @media (max-width:500px){
+        .clarity-row .col-md-3{
+           width: 100%;
+           margin-top: 1rem;
+        }
+        .clarity-colum-img {
+padding: 45px;
+height: 400px;
+}
+     }
