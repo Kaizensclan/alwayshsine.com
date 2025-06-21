@@ -9,12 +9,12 @@
 /* Top Header Start */
 
 .topBar {
-    background: #222;
+    background: #D6151B;
     padding: 10px 0px 10px 0px;
     height: 48px;
 }
 .btn-danger {
-    background: #222!important;
+    background: #D6151B!important;
 }
 
 .social-talk {
@@ -36,7 +36,7 @@
 
 
 .talk {
-    border-right: 1px solid #e7e6e6ad;
+    border-right: 1px solid #800c0cad;
     padding-right: 10px;
 }
 
@@ -149,7 +149,7 @@
     font-size: 14px;
     padding: 8px 11px !important;
     transform: skewX(25deg);
-    background: #222;
+    background: #D6151B;
 }
 
 .navbar-nav .nav-item .nav-link span {
@@ -175,7 +175,7 @@
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu li a:hover {
-    color: #222
+    color: #D6151B
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu li a {
@@ -189,7 +189,7 @@
 
 .navbar-expand-lg .navbar-nav .dropdown-menu li ul li a i {
     padding: 0px 10px;
-    color: #222
+    color: #D6151B
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu li ul li a {
@@ -274,7 +274,7 @@
     }
 
     .topBar {
-        background: #222;
+        background: #D6151B;
         padding: 10px 0px 0px 0px;
     }
 
@@ -417,7 +417,7 @@
             border-radius: 17px;
         }
         .mafia-service-form .modal-header {
-            background-color: #222;
+            background-color: #D6151B;
             padding: 17px 20px !important;
             display: flex;
             align-items: center;
@@ -468,7 +468,7 @@
             color: black;
         }
         .modal-body .validation-error label{
-            color: #222!important;
+            color: #D6151B!important;
             font-size: 13px;
             margin: 0px 0px 13px 0px;
         }

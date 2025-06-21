@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 p{
-    color: #000 !important;
+    color: #222 !important;
 }
 
 .container-fluid {
@@ -37,7 +37,7 @@ p{
     font-size: 40px;
     padding: 20px 0px;
     width: 100%;
-    color: #000;
+    color: #D6151B;
     font-weight: 900;
     text-align: center;
     font-family: Montserrat, Sans-serif;
@@ -155,7 +155,7 @@ p{
     margin-bottom: 0px;
 }
 .exclusive-brands-header h2{
-    color: #000;
+    color: #D6151B;
     font-size: 25px;
     line-height: 30px;
     font-weight: bold;
@@ -166,7 +166,7 @@ p{
     
 }
 .exclusive-brands-header h2 span{
-    color:  #222;
+    color:  #D6151B;
 }
 .exclusive-brands-section{
     background-color: #e8e8e8 !important;
@@ -214,7 +214,7 @@ p{
 .detailing-services h3{
     font-size: 40px;
     font-weight: 800;
-    color: #000;
+    color: #D6151B;
     margin: 0;
     padding-left: 35px;
     font-style: italic;
@@ -256,7 +256,7 @@ color: black;
     color: white;
 }
 .real-magic-heading h2 span{
-color: #222;
+color: #D6151B;
 }
 .real-magic{
     text-align: center;
@@ -366,7 +366,7 @@ color: #222;
     font-size: 40px;
     padding: 20px 0px 0px 0px;
     width: 100%;
-    color: #000;
+    color: #D6151B;
     font-weight: 900;
     text-align: center;
     font-family: Montserrat, Sans-serif;
@@ -401,7 +401,7 @@ color: #222;
 .chose-heading h3{
     text-align: center;
     font-size: 30px;
-    color: #000;
+    color: #D6151B;
     font-weight: 900;
     font-family: Montserrat, Sans-serif;
 }
@@ -476,7 +476,7 @@ color: #222;
     text-transform: uppercase;
     letter-spacing: 9px;
     font-weight: 900;
-    color: #222;
+    color: #D6151B;
     font-size: 50px;
 }
 .join-network-row {

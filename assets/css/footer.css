@@ -5,12 +5,12 @@
 }
 
 .footer-header1 h2 {
-    color: #222;
+    color: #D6151B;
     padding: 20px;
     margin-bottom: 30px;
     font-weight: 700;
     text-align: center;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #D6151B;
     font-family: "Montserrat", Sans-serif;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .footer-menu ul li .footer-ceramic li a span i {
-    color: #222;
+    color: #D6151B;
 }
 
 .footer-menu {
@@ -191,7 +191,7 @@
 
 /* section copy right */
 .section-copyright {
-    background-color: #222;
+    background-color: #D6151B;
     padding: 12px 0px 1px 0px;
 }
 
@@ -364,7 +364,7 @@
     color: white;
     font-weight: 600;
     z-index: 99999;
-    background: linear-gradient(162deg, #222, #222);
+    background: linear-gradient(162deg, #D6151B, #D6151B);
     border: 1px solid white;
     border-radius: 2px;
     transition: 0.6s;
@@ -377,7 +377,7 @@
 
 
 .feedback-btn:hover {
-    background: linear-gradient(162deg, #222, #222);
+    background: linear-gradient(162deg, #D6151B, #D6151B);
 }
 
 .feedback-btn a {
@@ -389,7 +389,7 @@
 
 /* buttom line */
 .paint-protection-line {
-    background: linear-gradient(181deg, #222, #222);
+    background: linear-gradient(181deg, #D6151B, #D6151B);
     color: white;
     position: fixed;
     bottom: -1px;
@@ -453,7 +453,7 @@
     color:white;
  }
  .get-heading {
-    background: #222;
+    background: #D6151B;
     padding: 15px 30px !important;
  }
  .btn-close {
