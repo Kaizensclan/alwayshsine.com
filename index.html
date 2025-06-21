@@ -263,11 +263,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <div class="videosection">
             <section>
                <div class="fullscreen-bg">
-                  <audio autoplay loop src="index.html" id="iframeAudio" style="display:none">
-                  </audio>
-                  <video loop autoplay muted class="fullscreen-bg__video" id="vid" poster="index.html" preload="auto">
-                     <source src="./videoplayback.mp4" type="video/webm">
-                  </video>
+                  <!-- <audio autoplay loop src="index.html" id="iframeAudio" style="display:none"> -->
+                  <!-- </audio> -->
+<video autoplay loop muted playsinline
+  class="fullscreen-bg__video" id="vid"
+  poster="fallback.jpg" preload="auto"
+  style="width: 100%; height: auto; object-fit: cover; display: block;">
+  
+  <source src="./videoplayback.mp4" >
+  Your browser does not support the video tag.
+</video>
+
+
                </div>
             </section>
          </div>
@@ -687,7 +694,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="swiper-slide">
                            <div class="ceramic-coating-img">
-                              <img src="https://tunparts.de/wp-content/uploads/2014/12/flash_banner.jpg" alt="Opti coat " loading="lazy">
+                              <img src="https://t4.ftcdn.net/jpg/02/82/00/75/360_F_282007508_wdCUP7hUMNK1Cuzj7XmOcFmzyzJ0Nnp9.jpg" alt="Opti coat " loading="lazy">
                            </div>
                            <div class="ceramic-coating-btn">
                               <a class="btn" href="#">Know More </a>
